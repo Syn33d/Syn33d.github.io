@@ -1,0 +1,130 @@
+body{
+    /* background-color :rgb(100, 105, 105); */
+	background:linear-gradient(to right, #dc2424, #4a569d); /* W3C, 16 18+/Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.page{
+	width:820px;
+	height:900px;
+	margin:auto;
+	font-size:16px;
+	font-family:'Source sans Pro', Calibri, Tahoma, sans-serif;
+	border-radius:10px;
+	box-shadow:2px 4px 3px black;
+	background-color:#ffd9d9;
+}
+
+.gauche{
+	background-color:#b40000;
+	float:left;
+	width:200px;
+	height:900px;
+}
+
+.gauche p, strong{
+	margin-left:5px;
+	color:white;
+	text-shadow: black 0 0 0.1em;
+	font-size:14px;
+	line-height: 150%;
+}
+
+.gauche hr{
+	color:white;
+	width:80%;
+	size:1;
+}
+
+.gauche .text-gauche{
+	margin-left:25px;
+}
+
+.gauche strong{
+	font-size:18px;
+}
+
+.infophoto{
+	position: relative;
+	color:white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	width:200px;
+	height:215px;
+	background: url(images/avatar_cp_big.jpg) no-repeat left bottom;
+	background-size:200px 215px;
+}
+
+.infophoto p{
+	position: absolute;
+	bottom: 0;
+	margin:15px;
+}
+
+.infophoto strong{
+	font-size:20px;
+}
+
+.image{
+	width:100px;
+}
+
+.icone{
+	width:20px;
+	float:left;
+}
+
+.icone-titre{
+	width:30px;
+	float:left;
+}
+
+h2{
+	font-size:18px;
+	color:#8f1010;
+	text-transform:uppercase;
+	border-bottom:2px solid #8f1010;
+}
+
+h3{
+	margin-left:15px;
+	margin-right:15px;
+	text-align:justify;
+	font-size:16px;
+	color:#FFF;
+	padding-top:10px;
+	font-style:italic;
+	font-weight:bold;
+}
+
+.section{
+	text-align:justify;
+	margin-left:210px;
+}
+
+.contenu{
+	position: relative;
+}
+
+.sec-gauche{
+	float:left;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.sec-droite{
+	margin-left:100px;
+	margin-right:10px;
+	font-size:13px;
+}
+
+.titre{
+	font-weight:bold;
+	font-size:14px;
+}
+
+.lieu{
+	color:#b50201;
+}
+
+.projets{
+	font-size:11px;
+}
